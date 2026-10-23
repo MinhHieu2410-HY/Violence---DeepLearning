@@ -1,0 +1,21 @@
+{
+  "dataset": "east-west-uniersity/violance-nonviolance v1",
+  "init_weights": "/kaggle/input/datasets/minhhiu24/adasda/best.pt",
+  "epochs_run": 80,
+  "test_mAP50": 0.8204299983852428,
+  "test_mAP50_95": 0.525101515468028,
+  "per_class": {
+    "non-violence": {
+      "P": 0.7650580746821415,
+      "R": 0.7872340425531915,
+      "AP50": 0.793172958187334,
+      "AP50_95": 0.5190727894297644
+    },
+    "violence": {
+      "P": 0.8185046339645324,
+      "R": 0.7516342548999908,
+      "AP50": 0.8476870385831516,
+      "AP50_95": 0.5311302415062914
+    }
+  }
+}

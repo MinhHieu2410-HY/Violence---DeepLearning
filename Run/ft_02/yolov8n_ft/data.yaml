@@ -1,0 +1,6 @@
+train: /kaggle/working/rf_data/train/images
+val: /kaggle/working/rf_data/valid/images
+test: /kaggle/working/rf_data/test/images
+names:
+  0: non-violence
+  1: violence

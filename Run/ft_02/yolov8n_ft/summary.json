@@ -1,0 +1,21 @@
+{
+  "dataset": "nuscrimesocietydatasets/violence-9gmjx v1",
+  "init_weights": "/kaggle/input/datasets/minhhiu24/assssssssssssssssss/best.pt",
+  "epochs_run": 29,
+  "test_mAP50": 0.883391480029019,
+  "test_mAP50_95": 0.5713396274275239,
+  "per_class": {
+    "non-violence": {
+      "P": 0.7347429865578361,
+      "R": 0.875,
+      "AP50": 0.8625973557200933,
+      "AP50_95": 0.5769885084419875
+    },
+    "violence": {
+      "P": 0.8754821586735982,
+      "R": 0.8521400778210116,
+      "AP50": 0.9041856043379446,
+      "AP50_95": 0.5656907464130602
+    }
+  }
+}
