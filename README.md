@@ -130,9 +130,3 @@ python -m streamlit run demo.py
 - Kết quả trên tập test chưa chứng minh khả năng tổng quát hóa sang camera độc lập; kiểm tra trùng tệp không loại trừ các frame gần giống nhau.
 - Chưa có kiểm thử tải để khẳng định hiệu năng nhiều camera hoặc FPS realtime trong môi trường triển khai.
 - Hướng phát triển: bổ sung dữ liệu phù hợp bối cảnh, giảm cảnh báo nhầm, kết hợp thông tin nhiều frame và đo độ trễ trên phần cứng đích.
-
-## 8. Lưu ý khi đưa mã nguồn lên GitHub
-
-Không commit môi trường `venv`, dữ liệu lớn, khóa API, mật khẩu camera hoặc đường dẫn chứa thông tin truy cập. Checkpoint và dữ liệu cần có hướng dẫn tải riêng nếu không được cung cấp trong repository. Kiểm tra điều kiện sử dụng của dữ liệu trước khi phân phối lại.
-
-Dự án phục vụ học tập và thực nghiệm. Cảnh báo của mô hình cần được con người kiểm tra trước khi kết luận về một sự việc.
