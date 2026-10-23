@@ -100,6 +100,10 @@ python -m pip install -r requirements.txt
 
 Nếu chưa có tệp này, cần tạo danh sách thư viện từ các import thực tế trong mã nguồn. Demo YOLO thường sử dụng PyTorch, Ultralytics, OpenCV, Pillow và Streamlit; pipeline hai giai đoạn cần thêm thư viện tương ứng của classifier và DBSCAN.
 
+
+
+
+
 ### Cấu hình trọng số
 
 1. Chuẩn bị checkpoint đã huấn luyện, ví dụ `best.pt` cho YOLOv8n.
