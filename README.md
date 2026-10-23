@@ -1,2 +1,0 @@
-# Violence---DeepLearning
-Violence
